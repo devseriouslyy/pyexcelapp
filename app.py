@@ -35,7 +35,7 @@ account = st.sidebar.multiselect(
 
 aging = st.sidebar.multiselect(
     "Select Aging:",
-    options=df["Age"].unique(),
+    options=df["Age"].unique(),    ## For some weird reason, it's not taking the word Aging and throwing error. But with "Age" its working.
     default=df["Age"].unique()
 )
 
