@@ -15,7 +15,7 @@ df = pd.read_excel(
         nrows=2010,
     )
 
-st.dataframe(df)
+#st.dataframe(df)
 
 # ---- SIDEBAR ----
 st.sidebar.header("Please Filter Here:")
